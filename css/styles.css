@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 5.5rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: #66BFBF;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+hr {
+    border: dotted #d8dcdc 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    color: #11999E;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+    color: #2bcfd4;
+}
+
+ul {
+    list-style-type: none;
+}
+
+table {
+    margin: auto 0 auto auto;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 25%;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 20%;
+    bottom: 300px;
+}
+
+.profile-picture {
+    width: 15%;
+}
+
+#intro {
+    width: 30%;
+    margin: auto;
+
+}
+
+.mid-container {
+    margin: 100px 0;
+}
+
+.application {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.company {
+    margin: 100px auto;
+    width: 60%;
+    text-align: left;
+}
+
+.cv {
+    margin: 100px auto 100px auto;
+    width: 60%;
+    text-align: right;
+}
+
+.dhbw-icon {
+    margin: 2.5rem 30px 10rem auto;
+    width: 25%;
+    float: left;
+}
+
+.cv-icon {
+    margin: auto auto auto 30px;
+    width: 25%;
+    float: right;
+}
+
+#cv-h3 {
+    padding-top: 2.5rem;
+}
+
+#contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background-color: #4edce1;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: #57e5ea;
+}
+
+.bot-container {
+    background-color: #82cece;
+    height: 100px;
+    padding: 50px 0 20px;
+}
+
+.footer-link:hover {
+    color: #EAF6F6;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
