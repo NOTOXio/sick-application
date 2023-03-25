@@ -94,12 +94,14 @@ table {
     position: absolute;
     right: 25%;
     top: 50px;
+    width: 15rem;
 }
 
 .bottom-cloud {
     position: absolute;
     left: 20%;
     bottom: 300px;
+    width: 15rem;
 }
 
 .profile-picture {
@@ -166,7 +168,7 @@ table {
 
 .bot-container {
     background-color: #82cece;
-    height: 100px;
+    height: 70px;
     padding: 50px 0 20px;
 }
 
@@ -174,9 +176,4 @@ table {
     color: #EAF6F6;
 }
 
-.copyright {
-    color: #EAF6F6;
-    font-size: 0.75rem;
-    padding: 20px 0;
-}
 
