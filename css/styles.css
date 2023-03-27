@@ -164,7 +164,8 @@ table {
 }
 
 .btn:hover {
-    background-color: #57e5ea;
+    background-color: #3fd4d9;
+    color: #EAF6F6;
 }
 
 .bot-container {
