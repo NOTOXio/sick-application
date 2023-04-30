@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: Sacramento;
-    src: url(fonts/Sacramento-Regular.ttf);
+    font-family: VT323;
+    src: url(fonts/IndieFlower-Regular.ttf);
 }
 
 @font-face {
@@ -21,11 +21,16 @@ body {
     font-family: Merriweather, serif;
 }
 
+img{
+    pointer-events: none;
+}
+
 h1 {
     font-size: 7rem;
-    margin: 100px auto 0 auto;
-    font-family: Sacramento, cursive;
+    margin: 120px auto 0 auto;
+    font-family: VT323, cursive;
     color: #66BFBF;
+    letter-spacing: .8rem;
 }
 
 h2 {
@@ -121,12 +126,12 @@ table {
 
 .profile-picture {
     width: 15%;
+    border-radius: 50%;
 }
 
 #intro {
     width: 30%;
     margin: auto;
-
 }
 
 .mid-container {
@@ -135,23 +140,34 @@ table {
 
 .application {
     padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 .company {
-    margin: 100px auto;
+    margin: 10rem auto;
     width: 60%;
     text-align: left;
 }
 
 .cv {
-    margin: 100px auto 100px auto;
+    margin: 10rem auto;
     width: 60%;
     text-align: right;
 }
 
+.cv::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.rubiks {
+    margin: 10rem auto;
+    width: 60%;
+    text-align: left;
+}
+
 .dhbw-icon {
-    margin: 2.5rem 30px 10rem auto;
+    margin: 2.5rem 30px 15rem auto;
     width: 25%;
     float: left;
 }
@@ -162,8 +178,10 @@ table {
     float: right;
 }
 
-#cv-h3 {
-    padding-top: 2.5rem;
+.rubiks-icon {
+    margin: auto 30px 2.5rem auto;
+    width: 15%;
+    float: left;
 }
 
 #contact-message {
@@ -191,5 +209,3 @@ table {
 .footer-link:hover {
     color: #EAF6F6;
 }
-
-
